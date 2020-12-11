@@ -205,9 +205,9 @@ def eight(input,  a):
             return ""
     x = len(input) - a
     outside = x / 2
-    end = ""
-    end += input[:int(outside)] + input[-int(outside):]
-    return end
+    finish = ""
+    finish += input[:int(outside)] + input[-int(outside):]
+    return finish
 
 	# <QUESTION 9>
 
@@ -259,4 +259,4 @@ def nine(string1, string2):
 	# Think about nesting for loops.
 
 def ten(X,Y):
-	return []
+	return False
